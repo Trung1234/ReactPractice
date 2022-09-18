@@ -11,6 +11,10 @@ class Page extends React.Component {
       jp: "Tiếng Nhật",
     };
     console.log("Page");
+    if (this.context.state.language === 'err') {
+      // Simulate a JS error
+      throw new Error('I crashed!');
+    }
     return (
       <>
         <p>This is</p>
