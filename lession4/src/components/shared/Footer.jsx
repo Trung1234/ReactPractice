@@ -1,5 +1,5 @@
- const Footer = () => {
-    console.log("Footer");
+const Footer = () => {
+  console.log("Footer");
   return (
     <footer>
       <p>Author: Hege Refsnes</p>
